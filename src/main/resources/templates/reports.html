@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JavaScript - read JSON from URL</title>
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script   src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <script src="js\reportJS.js"></script>
+    <style>
+        table, th, td 
+        {
+            margin:10px 0;
+            border:solid 1px #333;
+            padding:2px 4px;
+            font:15px Verdana;
+        }
+        th {
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+ 
+<form action=""> 
+<select name="customers" onchange="showCustomer(this.value)">
+<option value="">List of reports</option>
+<option value="Thy">Thyroid</option>
+<option value="Dia">Diabetes</option>
+<option value="Vit">Vitamin</option>
+</select>
+</form>
+<br></br>
+<div id="showData">Report displayed here</div>
+
+</body>
+</html>

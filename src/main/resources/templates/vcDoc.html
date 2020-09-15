@@ -1,0 +1,72 @@
+<html>
+<head>
+<script type="text/javascript" src="js/vcJavaDoc.js"></script>
+<script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script   src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<style>
+        table, th, td 
+        {
+            margin:10px 0;
+            border:solid 1px #333;
+            padding:2px 4px;
+            font:15px Verdana;
+        }
+        th {
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+<table id="data_table" border="1">
+<tr>
+<th>Name</th>
+<th>Country</th>
+<th>Age</th>
+</tr>
+
+<tr id="row1">
+<td id="name_row1">Ankit</td>
+<td id="country_row1">India</td>
+<td id="age_row1">20</td>
+<td>
+<input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')"></input>
+<input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')"></input>
+<input type="button" value="Delete" class="delete" onclick="delete_row('1')"></input>
+</td>
+</tr>
+
+<tr id="row2">
+<td id="name_row2">Shawn</td>
+<td id="country_row2">Canada</td>
+<td id="age_row2">26</td>
+<td>
+<input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')"></input>
+<input type="button" id="save_button2" value="Save" class="save" onclick="save_row('2')"></input>
+<input type="button" value="Delete" class="delete" onclick="delete_row('2')"></input>
+</td>
+</tr>
+
+<tr id="row3">
+<td id="name_row3">Rahul</td>
+<td id="country_row3">India</td>
+<td id="age_row3">19</td>
+<td>
+<input type="button" id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')"></input>
+<input type="button" id="save_button3" value="Save" class="save" onclick="save_row('3')"></input>
+<input type="button" value="Delete" class="delete" onclick="delete_row('3')"></input>
+</td>
+</tr>
+
+<tr>
+<td><input type="text" id="new_name"></input></td>
+<td><input type="text" id="new_country"></input></td>
+<td><input type="text" id="new_age"></input></td>
+<td><input type="button" class="add" onclick="add_row()" value="Add Row"></input></td>
+</tr>
+
+</table>
+</div>
+
+</body>
+</html>

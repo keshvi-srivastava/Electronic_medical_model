@@ -1,0 +1,2 @@
+_id,Report Type,﻿Age,Gender,On Thyroxine,On Antithyroid Medication,Sick,Pregnant,Recent Thyroid Surgery,I131 treatment,lithium,goitre,tumor,hypopituitary,TSH,T3,TT4,T4U,FTI,TBG
+234567,Thyroid,21,Female,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,120,120,23,12,11,123

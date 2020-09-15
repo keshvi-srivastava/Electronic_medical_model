@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> ASK+, centralised database management system </title> 
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script   src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+
+    <script src="js\emJava.js"></script>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body onload = "showCustomer()">
+
+<div class="row">
+  <div class="column">
+  	<form>
+  		<br></br>
+	  <h3>User id:</h3>
+	  <p id="userId"></p>
+	  <br></br>
+	  <h3>Date of Birth:</h3>
+	  <p id="DOB"></p>
+	  <br></br>
+	  <h3>Blood Group :</h3>
+	  <p id="bloodGroup"></p>
+	  <br></br>
+	  <h3>Aadhar Card:</h3>
+	  <p id="aadhar"></p>
+	  <br></br>
+	  <h3>Insurances :</h3>
+		  <p id="insurances"></p>
+		  <br></br>
+	</form>
+	</div>
+	<div class="column">
+  	<form>
+  			<br></br>
+		  <h3>Allergies:</h3><br></br>
+		  <p id="allergies"></p>
+		  <br></br>
+		  <h3>Emergency Contact:</h3><br></br>
+		  <u>Contact No. 1</u>
+		  <br></br>
+		  <i>Name:  </i>
+		  <p id="name1"></p>
+		  <br></br>
+		  <i>Relation:  </i>
+		  <p id="relation1"></p>
+		  <br></br>
+		  <i>Phone No.:  </i>
+		  <p id="number1"></p>
+		  <br></br>
+		  <u>Contact No. 2</u>
+		  <br></br>
+		  <i>Name:  </i>
+		  <p id="name2"></p>
+		  <br></br>
+		  <i>Relation:  </i>
+		  <p id="relation2"></p>
+		  <br></br>
+		  <i>Phone No.:  </i> 
+		  <p id="number2"></p>
+		  <br></br>
+		  
+	</form>
+	</div>
+</div>
+</body>
+</html>
